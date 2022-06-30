@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+} /*resetando estilos padrões*/
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 1.3rem 0;
+  border: 1px solid lightgrey;
+  width: 50%;
+  margin-top: -120px;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instagram-continue {
+  display: flex;
+  align-items: center; /* horizontal */
+  justify-content: space-around; /* vertical */
+  flex-direction: column;
+  width: 100%;
+  min-height: 28rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  padding: 8px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.buttom-login {
+  background-color: #0095F6;
+  padding: 6px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.text-login {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-option {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+  color:lightslategrey
+}
+
+.facebook, .password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #385185;
+}
+
+.password {
+  font-size: 12px;
+  margin-top: 10px;
+}
